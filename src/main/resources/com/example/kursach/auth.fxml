@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.Auth">
+    <children>
+        <Button fx:id="submitButton" layoutX="274.0" layoutY="265.0" mnemonicParsing="false" onAction="#login" text="Войти" AnchorPane.bottomAnchor="110.0" />
+        <PasswordField fx:id="passwordField" layoutX="226.0" layoutY="200.0" promptText="Пароль" />
+        <TextField fx:id="loginField" layoutX="226.0" layoutY="158.0" promptText="Логин" />
+        <CheckBox fx:id="pass_toggle" layoutX="226.0" layoutY="235.0" mnemonicParsing="false" onAction="#togglevisiblePassword" text="Посмотреть пароль" />
+        <TextField fx:id="passwordHidden" layoutX="226.0" layoutY="200.0" visible="false" />
+    </children>
+</AnchorPane>

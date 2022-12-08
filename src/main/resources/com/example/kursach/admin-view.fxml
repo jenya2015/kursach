@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.AdminView">
+   <children>
+      <Button fx:id="administrators" layoutX="101.0" layoutY="92.0" mnemonicParsing="false" text="Таблица &quot;Администраторы&quot;" />
+      <Button fx:id="clients" layoutX="339.0" layoutY="92.0" mnemonicParsing="false" text="Таблица &quot;Клиенты&quot;" />
+      <Button fx:id="operators" layoutX="117.0" layoutY="174.0" mnemonicParsing="false" text="Таблица &quot;Операторы&quot;" />
+      <Button fx:id="orders" layoutX="344.0" layoutY="174.0" mnemonicParsing="false" text="Таблица &quot;Услуги&quot;" />
+      <Button fx:id="service" layoutX="107.0" layoutY="263.0" mnemonicParsing="false" text="Таблица &quot;Обслуживание&quot;" />
+      <Button fx:id="windows" layoutX="348.0" layoutY="263.0" mnemonicParsing="false" text="Таблица &quot;Окна&quot;" />
+      <Button fx:id="exit" layoutX="509.0" layoutY="346.0" mnemonicParsing="false" onAction="#exit" text="Выйти" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.EnterTurnView">
+   <children>
+      <MenuButton fx:id="order_menu" layoutX="255.0" layoutY="125.0" mnemonicParsing="false" text="Услуга" />
+      <Button fx:id="but_enterturn" layoutX="195.0" layoutY="298.0" mnemonicParsing="false" onAction="#enterTurn" text="Записаться" />
+      <Button fx:id="but_exit" layoutX="332.0" layoutY="298.0" mnemonicParsing="false" onAction="#exit" text="Выйти" />
+   </children>
+</AnchorPane>

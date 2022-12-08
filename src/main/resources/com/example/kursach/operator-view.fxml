@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kursach.OperatorView">
+   <children>
+      <Button fx:id="but_accept" layoutX="31.0" layoutY="277.0" mnemonicParsing="false" onAction="#acceptClient" text="Принять" />
+      <Button fx:id="but_end" disable="true" layoutX="249.0" layoutY="277.0" mnemonicParsing="false" onAction="#endService" text="Завершить" />
+      <Label layoutX="33.0" layoutY="30.0" text="ФИО:" />
+      <Label layoutX="34.0" layoutY="104.0" text="Услуга:" />
+      <ScrollPane fx:id="op_scroll_turn" layoutX="352.0" layoutY="56.0" prefHeight="262.0" prefWidth="211.0">
+         <content>
+            <VBox fx:id="operator_turn" prefHeight="260.0" prefWidth="210.0" />
+         </content>
+      </ScrollPane>
+      <Label layoutX="431.0" layoutY="30.0" text="Ваша очередь" />
+      <Label layoutX="33.0" layoutY="192.0" text="Сейчас обслуживается:" />
+      <Button layoutX="509.0" layoutY="349.0" mnemonicParsing="false" onAction="#exit" text="Выйти" />
+      <Text fx:id="fio_lab" layoutX="34.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="146.13671875" />
+      <Text fx:id="order_lab" layoutX="34.0" layoutY="152.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="146.13671875" />
+      <Text fx:id="your_client" layoutX="34.0" layoutY="240.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="146.13671875" />
+      <Button fx:id="update" layoutX="352.0" layoutY="349.0" mnemonicParsing="false" onAction="#updateTurnTable" text="Обновить" />
+   </children>
+</AnchorPane>
